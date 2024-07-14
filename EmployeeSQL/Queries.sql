@@ -14,7 +14,7 @@ select man.emp_no, man.dept_no,
 	d.dept_name
 from dept_manager as man 
 left join departments as d
-on man.dept_no = d.dept_no;
+on man.dept_no = d.dept_no
 left join employees as e
 on man.emp_no = e.emp_no;
 
